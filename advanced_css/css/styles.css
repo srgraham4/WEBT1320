@@ -70,23 +70,32 @@ main {
 main img {
     width: 28%;
     margin-bottom: 20px;
+    border: 4px solid #a00000;
+    border-radius: 5px;
 }
 
 #lower {
     display: flex;
 }
 
+.col ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+    
 .col {
     padding: 10px;
     margin: 10px;
-    border: 5px #605F5E;
+    border: 5px solid #605F5E;
     width: 33.3%;
     border-radius: 10px;
 }
 
 .col img {
-    border: 25px #d7ac01;
-    border: radius 2px;
+    border: 4px solid #d7ac01;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 footer {
@@ -106,7 +115,7 @@ hr {
     color: #fff;
     text-decoration: none;
     text-align: center;
-    line-height: 35px;
+    line-height: 40px;
     margin-top: 10px;
     border-radius: 5px;
     margin-left: auto;
@@ -114,4 +123,19 @@ hr {
 }
 .button:hover {
     color: black;
+}
+
+#xpacs {
+    display: flex;
+}
+
+.xpaccover {
+    margin: 10px;
+    width: 33.3%;
+}
+.xpaccover img {
+    width: 100%;
+    margin: 10px;
+    
+
 }
