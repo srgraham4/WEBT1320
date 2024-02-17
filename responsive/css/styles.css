@@ -110,14 +110,6 @@ footer {
 
 @media (min-width: 786px) {
     nav {
-        background-color: #605F5E
-    }
-    
-    nav ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    nav {
         text-align: center;
     }
     nav li {
@@ -166,7 +158,6 @@ footer {
         
     }
     
-
     header h1 { 
         font-size: 100px;
         color: #ffffff;
