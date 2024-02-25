@@ -5,4 +5,4 @@
 <li><a href="html5_and_intro_to_css/index.html" target="_blank">HTML 5 and Intro CSS</a></li>
 <li><a href="advanced_css/index.html" target="_blank">Advanced CSS</a></li>
 <li><a href="responsive/index.html" target="_blank">Reponsive</a></li>
-</ul>
+<li><a href="final/index.html" target="_blank">Final</a></li></ul>
