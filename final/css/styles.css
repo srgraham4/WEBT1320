@@ -3,11 +3,13 @@ img {
     display: block;
     margin: 0 auto;
     width: 100%;
+    align-items: center;
 }
 body 
 {
     background-color: #E2B452;
     font-family: "Raleway", sans-serif;
+    font-size: 18px;
 }
 #container {
     background-color: #6B6D2A;
@@ -26,6 +28,7 @@ a:hover {color: #E2B452;
          text-decoration: double; 
          font-weight: bolder;      
 }
+
 
 /*Mobile Styles*/
 
@@ -61,7 +64,7 @@ header h1 {
     font-optical-sizing: 40px;
 }   
 header h2 {
-    colo;
+    color:#BB552F
 }
 main {
     border: 10px solid black;
@@ -80,13 +83,16 @@ main {
     border: 2px solid black;
     margin: 10px;
     padding: 10px;
+    text-align: center
 }
 
 .col img {
+    align-items: center;
     border: 4px solid #d7ac01;
     border-radius: 5px;
     margin-top: 10px;
-    width: 75%;
+    width: 100%;
+    
 }
 
 footer {
@@ -125,6 +131,7 @@ footer {
         margin: 30px;
         font-family: "Honk", system-ui;
     }
+    
     h1, h2, h3 {
     font-family: "Tilt Prism", sans-serif;
     }
@@ -184,7 +191,7 @@ footer {
     }
     #container {
         width: 65%;
-        margin: 20px auto;
+        margin: 22.5px auto;
     }
     
     #lower {
@@ -193,10 +200,10 @@ footer {
     }
         
     .col {
-        width: 33.3%;
+        width: 50%;
     }
     .button {
         font-family: "Honk", system-ui;
-        font-size: 30px;
+        font-size: 20px;
         }
 }
