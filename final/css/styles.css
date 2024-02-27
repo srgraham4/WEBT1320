@@ -16,7 +16,7 @@ body
     padding: 18px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     text-align: center;
 }
 
@@ -132,7 +132,7 @@ footer {
         font-family: "Honk", system-ui;
     }
     
-    h1, h2, h3 {
+    h1, h2, h3, h4  {
     font-family: "Tilt Prism", sans-serif;
     }
     header h1 {
@@ -152,7 +152,7 @@ footer {
 
 @media (min-width: 1024px) 
 {
-    h1, h2, h3 {
+    h1, h2, h3 h4{
         font-family: "Tilt Prism", sans-serif;
     }
     nav {
